@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>cbe8ee24-c81a-4660-b100-4a52ea13b26b</ID>
   <ModName>ModCheck (Continued)</ModName>
-  <Version>1.0.0.0</Version>
+  <Version>1.0.1.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,6 +12,3 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
