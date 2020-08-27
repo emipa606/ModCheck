@@ -59,6 +59,15 @@ namespace ModCheck
 
         public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
+            if (Harmony.HasAnyPatches("rimworld.aRandomKiwi.RimTheme")) {
+                Log.Warning("ModCheck: RimTheme is active, will not be able to apply all patches.");
+                foreach(var instruction in instructions)
+                {
+                    yield return instruction;
+                }
+                yield break;
+            }
+
             List<CodeInstruction> iList = new List<CodeInstruction>(instructions);
 
 #if false
