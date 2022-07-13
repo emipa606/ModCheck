@@ -20,18 +20,29 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>Update of Nightinggales mod
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Nightinggales mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1544705976
 
-[img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]
+This mod has not been tested with many mods as I havent found many that uses it. If you test this with a mod and it doesnt work please leave a comment. I will try my best to support this mod.
 
-Support-chat:
-https://discord.gg/SuhwVpM
+- Not compatible with RimThemes
 
-Non-steam version:
-https://github.com/emipa606/ModCheck
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/ModCheck][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
+[/table]
 	
---- Original Description ---
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+
 Toolkit for xml modders. Adds 13 new patch operations. Eliminate the need for patchmods. Patch according to presence, order or version of mods. Reorder xml elements, write patching results and test results to the log. Allow faster patching (shorter startup time) and measure how long each patch spends patching.
 
 The primary task for ModCheck is to remove the need for patch mods. It's done by adding test operations, which can tell if another mod is loaded, if one mod is before another, is of at least a certain version, either in About or in ModSync. Each of those can be reversed (not loaded etc).
@@ -47,9 +58,9 @@ Feature rich log writing. Get operations to write messages, warnings and errors 
 Profile patches. Measure how much time is spend on each patch. ModCheck is aware of which mod owns which patch, meaning you can get a precise view of the startup time of your mod. You can name your patches if root operation is from ModCheck, like ModCheck.Sequence. This will allow performance printout with names rather than just patch 1,2,3....
 
 
-Forum Thread[ludeon.com]
-GitHub[github.com]
-Manual of each operation[github.com]
+[url=https://ludeon.com/forums/index.php?topic=36534.0]Forum Thread[/url]
+[url=https://github.com/Nightinggale/ModCheck]GitHub[/url]
+[url=https://github.com/Nightinggale/ModCheck/wiki/List-of-operations]Manual of each operation[/url]
 
 Mod Load Order:
 In most cases this doesn't matter, but early is recommended.
@@ -83,5 +94,6 @@ Removed FindFile operation (vanilla rewrite renders it both obsolete and impossi
 Any xml file with FindFile will need updating.
 
 
-Earlier versions mentioned in the B18 mod page</description>
+Earlier versions mentioned in the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1195679775]B18 mod page[/url]
+</description>
 </ModMetaData>
